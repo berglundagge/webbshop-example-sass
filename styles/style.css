@@ -1,2 +1,24 @@
 body {
-  color: #fff; }
+  margin: 0;
+  padding: 0; }
+
+.nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 4px rgba(53, 44, 44, 0.548);
+  padding: .6rem 5rem; }
+  .nav__list {
+    display: flex;
+    list-style: none; }
+  .nav__item {
+    margin: 0 1.2rem; }
+  .nav__link {
+    text-decoration: none;
+    color: #555; }
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%; }
