@@ -1,0 +1,14 @@
+{
+  "name": "online-store",
+  "version": "1.0.0",
+  "description": "Online Store",
+  "main": "index.js",
+  "scripts": {
+    "compiler": "node-sass styles/sass/style.scss styles/style.css -w"
+  },
+  "author": "August Berglund",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
